@@ -40,7 +40,7 @@ $appids = ($_GET[("appidlist")]);
     // Save new changes to a new string.
     $botjson = json_encode($botdecoded, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
     // Save changes to file, finally.
-    file_put_contents("/home/ubuntu/ASF/config/{$botname}.json", $botjson);
+    file_put_contents("/home/user/ASF/config/{$botname}.json", $botjson);
 
     // Print confirmation message.
     echo('success');
