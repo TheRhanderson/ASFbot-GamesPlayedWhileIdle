@@ -26,7 +26,7 @@ $botname = ($_GET[("botname")]);
 $appids = ($_GET[("appidlist")]);
 
     // Get bot file text
-    $botjson = file_get_contents("/home/ubuntu/ASF/config/{$botname}.json"); 
+    $botjson = file_get_contents("/home/user/ASF/config/{$botname}.json"); 
 
     // Decode Bot file JSON
     $botdecoded = json_decode($botjson, true);
