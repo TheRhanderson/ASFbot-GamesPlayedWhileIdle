@@ -16,7 +16,7 @@ Requires
 How to use
 --------
 * To change bot01.json game list to 730,10,440, simply create a request to:
-localhost/api.php?botname=bot01&appidlist=730,10,440
+-> localhost/api.php?botname=bot01&appidlist=730,10,440
 
 
 Code preview
